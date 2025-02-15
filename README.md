@@ -1,19 +1,19 @@
 # 🖥️ Criando uma máquina pelo Vagrant com Zabbix Server
 
 ## 📑 Índice
-1. [Descrição](#descrição)
-2. [Requisitos](#requisitos)
-3. [Como Subir a Máquina Virtual](#como-subir-a-máquina-virtual)
-4. [Explicação de cada programa instalado](#explicação-de-cada-programa-instalado)
-   - [MySQL Server](#mysql-server)
-   - [Zabbix Server](#zabbix-server)
-   - [Zabbix Frontend PHP](#zabbix-frontend-php)
-   - [Zabbix Apache Configuration](#zabbix-apache-configuration)
-   - [Zabbix Agent](#zabbix-agent)
-5. [Acessando o Zabbix Server](#acessando-o-zabbix-server)
-6. [Verificação dos Serviços](#verificação-dos-serviços)
-7. [Como Parar ou Remover a Máquina Virtual](#como-parar-ou-remover-a-máquina-virtual)
-8. [Links](#links)
+1. [Descrição](#-descrição)
+2. [Requisitos](#-requisitos)
+3. [Como Subir a Máquina Virtual](#-como-subir-a-máquina-virtual)
+4. [Explicação de cada programa instalado](#-explicação-de-cada-programa-instalado)
+   - [MySQL Server](#-mysql-server)
+   - [Zabbix Server](#-zabbix-server)
+   - [Zabbix Frontend PHP](#-zabbix-frontend-php)
+   - [Zabbix Apache Configuration](#-zabbix-apache-configuration)
+   - [Zabbix Agent](#-zabbix-agent)
+5. [Acessando o Zabbix Server](#-acessando-o-zabbix-server)
+6. [Verificação dos Serviços](#-verificação-dos-serviços)
+7. [Como Parar ou Remover a Máquina Virtual](#-como-parar-ou-remover-a-máquina-virtual)
+8. [Links](#-links)
 
 ## 📝 Descrição
 Este projeto cria uma máquina virtual utilizando Vagrant para instalar e configurar automaticamente o Zabbix Server, um sistema de monitoramento de redes e servidores, e o MySQL como banco de dados.
@@ -27,7 +27,7 @@ Antes de começar, certifique-se de ter instalado:
 1. Clone este repositório:
    ```bash
    git clone https://github.com/JoaoGSantiago/vagrant_zabbix.git
-   cd vagrant-zabbix-server
+   cd vagrant_zabbix
    ```
 2. Inicie a máquina virtual:
    ```bash
