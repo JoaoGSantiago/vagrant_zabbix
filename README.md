@@ -60,6 +60,8 @@ Após a inicialização da VM, acesse o Zabbix através do navegador:
 ```
 http://<IP-DA-VM>/zabbix
 ```
+![Imagem da tela do Zabbix](./zabbix_tela.png)
+
 - **Usuário padrão**: `Admin`
 - **Senha padrão**: `zabbix`
 
